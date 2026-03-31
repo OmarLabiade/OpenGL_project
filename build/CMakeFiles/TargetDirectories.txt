@@ -1,0 +1,6 @@
+/home/o-l/Bureau/Ecole/S8/Computer_Graphicss/tp1ogl-v2026.1.0-rc2/build/CMakeFiles/helloteapot.dir
+/home/o-l/Bureau/Ecole/S8/Computer_Graphicss/tp1ogl-v2026.1.0-rc2/build/CMakeFiles/helloteapot2.dir
+/home/o-l/Bureau/Ecole/S8/Computer_Graphicss/tp1ogl-v2026.1.0-rc2/build/CMakeFiles/moreteapots.dir
+/home/o-l/Bureau/Ecole/S8/Computer_Graphicss/tp1ogl-v2026.1.0-rc2/build/CMakeFiles/navigator.dir
+/home/o-l/Bureau/Ecole/S8/Computer_Graphicss/tp1ogl-v2026.1.0-rc2/build/CMakeFiles/edit_cache.dir
+/home/o-l/Bureau/Ecole/S8/Computer_Graphicss/tp1ogl-v2026.1.0-rc2/build/CMakeFiles/rebuild_cache.dir
