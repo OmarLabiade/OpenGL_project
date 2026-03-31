@@ -42,4 +42,4 @@ After you glPopMatrix(), you restore the previous matrix without the gluLookAt, 
 7)If you move glLoadIdentity() from main to just before “draw scene” in display(), then every repaint resets the ModelView matrix to identity right before drawing.
 The viewing transform you previously set in main (e.g. gluLookAt) gets wiped out at the start of each display().
 Your teapots are then drawn with the wrong camera (default view), so the blue 3rd teapot can end up outside the view volume / behind the camera and “disappear”.
-Why (stack reasoning): glLoadIdentity() changes the current ModelView matrix at the top of the stack. Doing it in display() resets the baseline for the whole frame unless you apply gluLookAt again after that reset (and before any modeling transforms).
+Why (stack reasoning): glLoadIdentity() changes the current ModelView matrix at the top of the stack. Doing it in display() resets the baseline for the whole frame unless you apply gluLookAt again after that reset (and before any modeling transforms)
