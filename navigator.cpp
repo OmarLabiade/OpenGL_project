@@ -84,8 +84,8 @@ void specialKey(int key, int, int)
         // rotation
         case GLUT_KEY_LEFT:  rotY -= ANG_SPEED; break;
         case GLUT_KEY_RIGHT: rotY += ANG_SPEED; break;
-        case GLUT_KEY_UP:    rotX -= ANG_SPEED; break;
-        case GLUT_KEY_DOWN:  rotX += ANG_SPEED; break;
+        case GLUT_KEY_UP:    rotX += ANG_SPEED; break;
+        case GLUT_KEY_DOWN:  rotX -= ANG_SPEED; break;
         default: break;
     }
 
