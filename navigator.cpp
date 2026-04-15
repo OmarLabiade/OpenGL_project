@@ -25,7 +25,7 @@ float rotX = 0.f, rotY = 0.f;
 
 void display()
 {
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT);
 
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
@@ -103,7 +103,7 @@ int main(int argc, char** argv)
     glutInit(&argc, argv);
 
     glutInitWindowSize(500, 500);
-    glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH);
+    glutInitDisplayMode(GLUT_RGB);
 
     glutCreateWindow("navigator");
 
